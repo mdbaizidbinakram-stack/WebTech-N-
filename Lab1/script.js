@@ -1,4 +1,4 @@
-et name = prompt("Name:");
+let name = prompt("Name:");
 let age = parseInt(prompt("Age:"));
 let cgpa = parseFloat(prompt("CGPA:"));
 
