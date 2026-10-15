@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>New Project</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>Registration Form</h1>
+	<form>
+		<div>
+			<label for="fullname">Full Name: </label>
+			<input type="text" name="fullname" id="fullname" required>
+		</div><br>
+		
+		<div>
+			<label for="password">Password: </label>
+			<input type="password" name="password" id="password">
+		</div><br>
+		
+		<div>
+			<label for="dob">Date of Birth: </label>
+			<input type="Date" name="dob" id="dob">
+		</div><br>
+		
+		<div>
+			<label for="image">Choose your photo: </label>
+			<input type="file" name="photo" id="photo">
+		</div> <br>
+		
+		<div>
+			<label for="gender">Gender: </label>
+			<input type="radio" id="gender1" value="male">Male
+			<input type="radio" id="gender2" value="female">Female
+		</div><br>
+		
+		<div>
+			<label for="religion">Religion: </label>
+			<input type="checkbox" name="r1" id="r1" value="Islam">Islam
+			<input type="checkbox" name="r3" id="r3" value="Hindu">Hindu
+		</div><br>
+		
+		<div>
+			<label for="department">Department: </label>
+			<select name="department">
+				<option vlaue="CSE">CSE</option>
+				<option vlaue="EEE">EEE</option>
+			</select>
+		</div><br>
+		
+		<div>
+			<label for="Address">Write down the addresss: </label>
+			<textarea col="5" rows="15"></textarea>
+		</div><br>
+		
+		<div>
+			<input type="submit" vlaue="Register">
+			<input type="reset" value="clear" disabled>
+		</div>
+	</form>
+
+</body>
+</html>
